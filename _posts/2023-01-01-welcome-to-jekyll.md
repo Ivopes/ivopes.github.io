@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: single
 title:  "Welcome to Jekyll!"
-tag: aa
+author_profile: true
+showNext: false
 ---
 
 # Welcome

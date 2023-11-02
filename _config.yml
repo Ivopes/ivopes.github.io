@@ -11,23 +11,23 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dirt" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Personal blog"
 title_separator          : "-"
-subtitle                 : "Subtitle" # site tagline that appears below site title in masthead
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ivo Pesak"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://ivopes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : Ivopes/ParticlesTrackig # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "https://mmistakes.github.io/minimal-mistakes/assets/images/bio-photo-2.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "https://mmistakes.github.io/minimal-mistakes/assets/images/bio-photo-2.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "aa" # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+masthead_title           : "Personal blog" # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -59,7 +59,7 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
@@ -107,27 +107,30 @@ author:
   name             : "Ivo Pesak"
   avatar           : "https://mmistakes.github.io/minimal-mistakes/assets/images/bio-photo-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  location         : "Ostrava, Czechia"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
+      url: "mailto:hapesak@seznam.cz"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://your-website.com"
+      #url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      #url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/"
+      #url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/ivopes"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      #url: "https://instagram.com/"
+    - label: "LinedIn"
+      icon: "fab fa-fw fa-solid fa-linkedin-in"
+      url: "https://www.linkedin.com/in/ivo-pesak/"
 
 # Site Footer
 footer:
@@ -287,6 +290,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments:  true
+      comments:  false
       share: true
       related: true
+      showNext: true
