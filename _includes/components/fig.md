@@ -1,0 +1,1 @@
+[![Image]({{ site.url }}{{ site.baseurl }}{{include.urlSmall}} "{{include.description}}")]({{ site.url }}{{ site.baseurl }}{{include.urlSmall}} "{{include.description}}")

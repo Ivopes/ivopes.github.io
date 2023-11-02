@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Personal blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Ivo Pesak"
+name                     : "Ivo Pešák"
 description              : "An amazing website."
 url                      : https://ivopes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
-repository               : Ivopes/ParticlesTrackig # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : Ivopes/ivopes.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "https://mmistakes.github.io/minimal-mistakes/assets/images/bio-photo-2.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "https://mmistakes.github.io/minimal-mistakes/assets/images/bio-photo-2.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : "Personal blog" # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # true, false (default)
+#breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -58,7 +58,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true # true, false (default)
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -96,17 +96,17 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : google-gtag # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : G-KTS4PDE21M
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Ivo Pesak"
+  name             : "Ivo Pešák"
   avatar           : "https://mmistakes.github.io/minimal-mistakes/assets/images/bio-photo-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : ""
   location         : "Ostrava, Czechia"
   email            :
   links:
@@ -140,10 +140,10 @@ footer:
       # url:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://github.com/"
+      # url: "https://github.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: https://github.com/Ivopes
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -153,6 +153,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Report a bug"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/Ivopes/ivopes.github.io/issues
 
 
 # Reading Files
