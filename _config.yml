@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" #"default", "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Personal blog"
+title                    : "Personal dev blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ivo Pešák"
@@ -26,7 +26,7 @@ baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : Ivopes/ivopes.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "https://mmistakes.github.io/minimal-mistakes/assets/images/bio-photo-2.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "https://mmistakes.github.io/minimal-mistakes/assets/images/bio-photo-2.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Personal blog" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "Personal dev blog" # overrides the website title displayed in the masthead, use " " for no title
 #breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
